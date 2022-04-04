@@ -1,0 +1,13 @@
+
+
+.nav_link{
+    display:flex;
+    margin-left: 20px;
+    text-decoration: none;}
+
+.text {
+    color: black;
+  }
+  .header{
+      display: flex;
+  }

@@ -1,0 +1,10 @@
+.contact {
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .contact-text {
+    color: teal;
+    font-weight: bold;
+    font-size:50px;
+  }
