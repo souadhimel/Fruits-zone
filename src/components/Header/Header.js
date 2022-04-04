@@ -4,20 +4,27 @@ import CustomLink from '../CustomLink/CustomLink';
 import "./Header.css"
 
 const Header = () => {
+    const linkStyle = {
+        margin: "1rem",
+        textDecoration: "none",
+        color: 'black',
+        padding: "10px",
+        
+      };
     return (
        <div>
-           <Navbar collapseOnSelect expand="lg" bg="myColor" variant="white">
+           <Navbar collapseOnSelect expand="md" bg="myColor" variant="white">
   <Container>
   <Navbar.Brand to="/">Fruits Zone</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto">
-    <CustomLink style={{ paddingLeft: 13 }}to="/">Home</CustomLink>
- <CustomLink style={{paddingLeft: 13 }} to="/reviews">Reviews</CustomLink>
- <CustomLink style={{ paddingLeft: 13 }} to="/about">About</CustomLink>
- <CustomLink style={{ paddingLeft: 13 }} to="/blogs">Blogs</CustomLink>
- <CustomLink style={{ paddingLeft: 13 }} to="/dashboard">Dashboard</CustomLink>
- <CustomLink style={{  color: 'black',paddingLeft: 13 }} to="/contact">Contact</CustomLink>
+    <CustomLink style={linkStyle} to="/">Home</CustomLink>
+ <CustomLink style={linkStyle} to="/reviews">Reviews</CustomLink>
+ <CustomLink style={linkStyle} to="/about">About</CustomLink>
+ <CustomLink style={linkStyle} to="/blogs">Blogs</CustomLink>
+ <CustomLink style={linkStyle} to="/dashboard">Dashboard</CustomLink>
+ <CustomLink style={linkStyle}  to="/contact">Contact</CustomLink>
      
     </Nav>
    
