@@ -87,17 +87,23 @@
     color:red;
     margin:20px;
     padding:20px;
-    font: 3em sans-serif;
 }
 .rating_btn{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px;
+    
    
     }
 
+   .btn_text{
+      
+        border:3px solid red;
+        padding:8px 80px;
+    }
     .link_text{
         text-decoration: none;
         color: black;
+       
     }

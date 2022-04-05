@@ -25,7 +25,7 @@ const [reviews,setReviews]=useReviews([]);
       </div>
     </section>
       <div className="review">
-          <h3 className="review_title">Our customer sayings about us....................</h3>
+          <h3 className="review_title">Our happy customer sayings about us....................</h3>
           <div className="row">
           <div className="col-md-12">
             <div className="row row-cols-3 g-4">
@@ -34,12 +34,12 @@ const [reviews,setReviews]=useReviews([]);
                   key={review._id}
                   review={review}
                 ></Review>
-              )).slice(0,6)}
+              )).slice(0,3)}
             </div>
           </div>
         </div>
         <div className="rating_btn">
-            <button> <Link to="/reviews" className="link_text">See all reviews</Link>
+            <button className="btn_text"> <Link to="/reviews" className="link_text">See all reviews</Link>
                 
                  </button>
         </div>

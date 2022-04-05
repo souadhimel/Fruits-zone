@@ -11,9 +11,9 @@ const About = () => {
           <img class="image" src="images/s-img-1.jpg" alt="" />
           <div class="content">
             <img src="images/s-1.png" alt="" />
-            <h3>yammy burger</h3>
+            <h3>Yammy burger</h3>
             <p>
-            A hamburger is a food consisting of fillings —usually a patty of ground meat, typically beef—placed inside a sliced bun or bread roll with many types of vegetables....
+            A hamburger is a food consisting of fillings —usually a patty of ground meat, typically beef—placed inside a sliced bun or bread roll with many types of vegetables.....
             </p>
           </div>
         </div>
@@ -21,9 +21,9 @@ const About = () => {
           <img class="image" src="images/s-img-2.jpg" alt="" />
           <div class="content">
             <img src="images/s-2.png" alt="" />
-            <h3>tasty pizza</h3>
+            <h3>Tasty pizza</h3>
             <p>
-            Pizza,a dish of Italian origin, usually round base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients in different ratio.........................
+            Pizza,a dish of Italian origin, usually round base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients in different....
             </p>
           </div>
         </div>
@@ -31,11 +31,9 @@ const About = () => {
           <img class="image" src="images/s-img-3.jpg" alt="" />
           <div class="content">
             <img src="images/s-3.png" alt="" />
-            <h3>cold ice-cream</h3>
+            <h3>Cold ice-cream</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              inventore neque amet ipsa tenetur voluptates aperiam tempore
-              libero labore aut.
+            Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be made from milk or cream and is flavoured with a sweetener, with a variety of....
             </p>
           </div>
         </div>
@@ -43,11 +41,9 @@ const About = () => {
           <img class="image" src="images/s-img-4.jpg" alt="" />
           <div class="content">
             <img src="images/s-4.png" alt="" />
-            <h3>cold drinks</h3>
+            <h3>Soft drinks</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              inventore neque amet ipsa tenetur voluptates aperiam tempore
-              libero labore aut.
+            A soft drink is a drink that usually contains water, a sweetener, and a natural and/or artificial flavoring. The sweetener may be a sugar, high-fructose corn syrup....................
             </p>
           </div>
         </div>
@@ -55,11 +51,9 @@ const About = () => {
           <img class="image" src="images/s-img-5.jpg" alt="" />
           <div class="content">
             <img src="images/s-5.png" alt="" />
-            <h3>tasty sweets</h3>
+            <h3>Mind-blowing sweets</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              inventore neque amet ipsa tenetur voluptates aperiam tempore
-              libero labore aut.
+            The Sweet, are a British glam rock band that rose to prominence in the 1970s. Their best known line-up consisted of lead vocalist Brian Connolly, bass player.............................
             </p>
           </div>
         </div>
@@ -67,11 +61,9 @@ const About = () => {
           <img class="image" src="images/s-img-6.jpg" alt="" />
           <div class="content">
             <img src="images/s-6.png" alt="" />
-            <h3>healty breakfast</h3>
+            <h3>Healthy breakfast</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              inventore neque amet ipsa tenetur voluptates aperiam tempore
-              libero labore aut.
+            Breakfast is the first meal taken after rising from a night's sleep, most often eaten in the early morning before undertaking the day's work. Among English speakers in.....................
             </p>
           </div>
         </div>
