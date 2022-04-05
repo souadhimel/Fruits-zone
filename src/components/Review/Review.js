@@ -4,7 +4,7 @@ import { AiFillStar } from "react-icons/ai";
 
 const Review = (props) => {
 
-    const { name, picture,comment,rating} = props.member;
+    const { name, picture,comment,rating} = props.review;
     return (
         <div className="col card-container">
       <div className="card p-2">

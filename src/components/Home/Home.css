@@ -11,7 +11,8 @@
   
   .home .content {
     flex: 1 1 40rem;
-    padding-top: 6.5rem;
+    /* padding-top: 1.5rem; */
+    margin-top: -60px;
   }
   
   .home .image {
@@ -19,9 +20,11 @@
   }
   
   .home .image img {
-    width: 100%;
+    width: 70%;
     padding: 1rem;
     animation: float 3s linear infinite;
+    margin-top: -60px;
+    margin-right: -50px;
   }
   
   @keyframes float {
@@ -79,3 +82,22 @@
   .home .btn:hover {
     color: blue;
   }
+  .review_title{
+    text-align: center;
+    color:red;
+    margin:20px;
+    padding:20px;
+    font: 3em sans-serif;
+}
+.rating_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+   
+    }
+
+    .link_text{
+        text-decoration: none;
+        color: black;
+    }

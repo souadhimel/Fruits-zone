@@ -4,3 +4,11 @@
   .right {
     padding-top: 20px;
   } */
+
+  .review_title{
+      text-align: center;
+      color:red;
+      margin:20px;
+      padding:20px;
+      font: 3em sans-serif;
+  }

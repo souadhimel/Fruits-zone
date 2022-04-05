@@ -3,24 +3,25 @@ import Review from '../Review/Review';
 import "./Reviews.css"
 
 const Reviews = () => {
-    const [members, setMembers] = useState([]);
+    const [reviews, setReviews] = useState([]);
   
     useEffect(() => {
       fetch("./Reviews.JSON")
         .then((res) => res.json())
-        .then((data) => setMembers(data));
+        .then((data) => setReviews(data));
     }, []);
     
     
     return (
         <div>
+            <h2 className="review_title">Our customers say......</h2>
         <div className="row">
           <div className="col-md-12">
-            <div className="row row-cols-4 g-4">
-              {members.map((member) => (
+            <div className="row row-cols-3 g-4">
+              {reviews.map((review) => (
                 <Review
-                  key={member._id}
-                  member={member}
+                  key={review._id}
+                  review={review}
                 ></Review>
               ))}
             </div>
