@@ -2,8 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    padding-bottom: 90px;
   }
-  
+  .speciality .heading{
+      text-align: center;
+      margin-top: 40px;
+      padding-bottom: 30px;
+      color: red;
+  }
   .speciality .box-container .box {
     flex: 1 1 30rem;
     position: relative;
