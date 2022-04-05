@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import CustomLink from '../CustomLink/CustomLink';
-import "./Header.css"
+import "./Header.css";
+import { FcProcess,FcCollect } from "react-icons/fc";
 
 const Header = () => {
     const linkStyle = {
@@ -15,7 +16,7 @@ const Header = () => {
        <div>
            <Navbar collapseOnSelect expand="md" bg="myColor" variant="white">
   <Container>
-  <Navbar.Brand to="/">Fruits Zone</Navbar.Brand>
+  <Navbar.Brand to="/"><FcProcess className="icon"></FcProcess> Fruits Zone <FcCollect className="icon"></FcCollect></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto">
