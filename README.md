@@ -1,6 +1,6 @@
 # Title: "Food Zone"
 
-## Live site link:"https://elastic-goldberg-8cd0ca.netlify.app"
+## Live site link:"https://strong-kangaroo-a33c56.netlify.app/"
 
 ### Road map:
 
